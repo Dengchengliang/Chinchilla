@@ -18,15 +18,9 @@ using Microsoft.Research.DynamicDataDisplay;
 using Microsoft.Research.DynamicDataDisplay.DataSources;
 using System.Windows.Threading;
 
-
-
-
-
-
 namespace Chinchilla {
     class Basechart {
         private ChartPlotter chart;
-       //
         private DispatcherTimer timerSine;
         private double t = 0;
         private Dispatcher disp;
